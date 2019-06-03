@@ -1,7 +1,7 @@
 {
     "variables": {
          "region":         "us-east-1",
-                "aws_subnet_id": "subnet-0fdd1da8c6b76e2af",
+                "aws_subnet_id": "subnet-0f4b8f8db598eaf21",
         "aws_vpc_id": "vpc-00e2284bbb39d5a29",
         "aws_ami_name": "wordpress-mysql-ami-{{timestamp}}"
     },
