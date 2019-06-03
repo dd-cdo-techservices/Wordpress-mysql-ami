@@ -3,7 +3,7 @@
          "region":         "us-east-1",
                 "aws_subnet_id": "subnet-0fdd1da8c6b76e2af",
         "aws_vpc_id": "vpc-00e2284bbb39d5a29",
-        "aws_ami_name": "uc-one-MySQLUB-{{timestamp}}"
+        "aws_ami_name": "wordpress-mysql-ami-{{timestamp}}"
     },
     "builders": [
         {
@@ -32,11 +32,11 @@
                         "communicator": "ssh",
 		"tags": {
         "OS_Version": "Ubuntu",
-        "Name": "uc-one-MySQLUB"
+        "Name": "wordpress-mysql-ami"
       },
 	"run_tags" : {
         "OS_Version": "Ubuntu",
-        "Name": "uc-one-MySQLUB"
+        "Name": "wordpress-mysql-ami"
       }
         }
     ],
